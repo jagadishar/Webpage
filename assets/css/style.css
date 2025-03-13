@@ -1,0 +1,123 @@
+a
+{
+    text-decoration: none;
+    color: white;
+}
+h5
+{
+    color:black
+}
+h4
+{
+    color:aqua;
+    font-size: 3rem;
+    text-align: center;
+    text-overflow: clip;
+
+}
+
+.carousel-inner
+{
+    height: 40rem;
+  width: 90rem;
+  margin-right: -5rem;
+  margin-top: -01%;
+  margin-left: -4rem
+
+
+}
+.offcanvas-body
+{
+    color:white;
+    font-size: large;
+}
+
+.animated-text {
+    font-size: 2rem;
+    opacity: 0;
+    transform: translateY(-200px);
+    animation: slideInFromTop 8s ease-out forwards infinite;
+}
+
+@keyframes slideInFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.carousel-control-prev
+{
+display: flex;
+}
+.carousel-control-next
+{
+display: flex;
+}
+
+.bi
+{
+    float: inline-start;
+}
+.link-body-emphasis
+{
+    text-align: start;
+}
+.search
+{
+    margin-right: 40%;
+
+}
+input[type=search]
+{
+    margin-left: 3%;
+    width: 20rem;
+}
+.logo
+{
+    margin-left: -1%;
+}
+i
+{
+    color:white;
+    margin-right:0.5rem
+
+}
+
+.icon
+{
+    margin-right:12rem ;
+}
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+  color: #333;
+  text-shadow: none; 
+}
+nav
+{
+    height: 60px;
+    width: 100%;
+    margin-right: 100%;
+}
+.modes
+{
+    color: white;
+    padding: 10%;
+    margin-left: -30%;
+    margin-right: auto;
+
+}
+.value
+{
+    color: white;
+    
+}
+body
+{
+    margin-right:auto;
+}
